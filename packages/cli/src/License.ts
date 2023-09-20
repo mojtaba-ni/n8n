@@ -147,7 +147,8 @@ export class License {
 	}
 
 	isSharingEnabled() {
-		return this.isFeatureEnabled(LICENSE_FEATURES.SHARING);
+		// return this.isFeatureEnabled(LICENSE_FEATURES.SHARING);
+		return true;
 	}
 
 	isLogStreamingEnabled() {
@@ -155,7 +156,8 @@ export class License {
 	}
 
 	isLdapEnabled() {
-		return this.isFeatureEnabled(LICENSE_FEATURES.LDAP);
+		// return this.isFeatureEnabled(LICENSE_FEATURES.LDAP);
+		return true;
 	}
 
 	isSamlEnabled() {
@@ -171,7 +173,8 @@ export class License {
 	}
 
 	isVariablesEnabled() {
-		return this.isFeatureEnabled(LICENSE_FEATURES.VARIABLES);
+		// return this.isFeatureEnabled(LICENSE_FEATURES.VARIABLES);
+		return true;
 	}
 
 	isSourceControlLicensed() {
